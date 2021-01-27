@@ -1,0 +1,113 @@
+ body {
+     background-color: lightgrey;
+ }
+
+ textarea {
+     background-color: lightgoldenrodyellow;
+     font-family: cursive;
+     font-stretch: ultra-expanded;
+     box-shadow: 5px 5px #777777;
+ }
+
+ .a:hover {
+     cursor: pointer;
+     background-color: burlywood
+ }
+
+ .div500 {
+     padding: 20px;
+ }
+
+ .label {
+     font-family: 'Times New Roman'
+ }
+
+ h1 {
+     color: blue;
+ }
+
+ header {
+     background-color: black
+ }
+
+ button:hover {
+     cursor: pointer;
+     background-color: antiquewhite;
+     border: inset 2px 1px 3px 1px #777777;
+     border: 3px 5px dotted black;
+ }
+
+ input {
+     background-color: lightgray
+ }
+
+ input[type="submit"]:hover {
+     cursor: pointer;
+     background-color: burlywood;
+ }
+
+ .p {
+     color: aquamarine
+ }
+
+ input[type="submit"]:hover {
+     box-shadow: outset 5px 5px #777777
+ }
+
+ .sports_table {
+     background-color: crimson;
+     color: chartreuse;
+ }
+
+ form {
+     background-color: white;
+     box-shadow: 5px 5px #777777
+ }
+
+ .div {
+     background-color: deeppink;
+     color: aquamarine
+ }
+
+ .div2 {
+     background-color: lime;
+ }
+
+ .div3 {
+     background-color: white;
+     box-shadow: 5px 5px #777777
+ }
+
+ .sports_table2 {
+     background-color: crimson;
+     color: aqua;
+ }
+
+ .sports_table3 {
+     background-color: crimson;
+     color: aqua
+ }
+
+ .sports_table4 {
+     background-color: crimson;
+     color: aqua
+ }
+
+ .audio {
+     color: black;
+     background-color: black;
+     box-shadow: 5px 5px #777777;
+ }
+
+ .select {
+     box-shadow: 5px 5px #777777
+ }
+
+ .table {
+     box-shadow: 5px 5px #777777
+ }
+
+ .text {
+     color: black;
+     box-shadow: 5px 5px #777777
+ }

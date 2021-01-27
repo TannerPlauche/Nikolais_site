@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html id="html">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="" content="demonstrations">
+    <meta content="junk functions">
+    <title>home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="main.js" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style src="./css/main.css"></style>
+</head>
+<header>
+    <h1 id="name">NIKOLAI'S SITE</h1>
+    <div class="div500">
+        <button><a href="/html/page1.html">page1</a></button>
+
+        <button><a href="/html/page2.html">page2</a></button>
+
+        <button><a href="/html/page3.html">page3</a></button>
+
+        <button><a href="/html/music.html">music</a></button>
+
+    </div>
+</header>
+
+
+
+<div>
+
+
+
+</div>
+<div>
+    <label for="">departure date:
+        <input type="date">
+
+
+</div>
+<div class="div2">
+    <form action="">
+        <label for="">search:</label>
+    <input type="search" value="search" name="search">
+    <input type="submit" value="search" name="search">
+    </form>
+
+
+</div>
+<br>
+
+<br>
+<div class="div3">
+    <form action="">
+        <input type="password" value="" placeholder="password" required="required" id="password">
+        <input type="username" value="" placeholder="username" required="required" id="username">
+        <input type="submit" value="log in" onclick="login()" class="input">
+    </form>
+    <br>
+
+    <br>
+    <textarea name="text" id="" cols="30" rows="10" placeholder="type your coments here">
+        </textarea>
+
+    <form>
+        <p>please select your favorite video game</p>
+        <select name="" id="video-game">
+
+            <option value="xbox">xbox</option>
+            <option value="ps4">ps4</option>
+            <option value="nintendo switch">nintendo switch</option>
+            <option value="nintendo 64">nintendo 64</option>
+
+        </select>
+        <input type="submit" value="submit" onclick="what(event)">
+
+        <br>
+
+    </form>
+    <input id="textInput" type="text">
+    <input type="submit" name="alert" onclick="alertTextInput(event)">
+</div>
+
+<script src="./js/main.js"></script>
+<script>
+    function alertTextInput(event) {
+        event.preventDefault();
+        text = document.getElementById('textInput').value;
+        alert(`You entered: ${text}.`);
+    }
+</script>
+</body>
+
+
+</html>

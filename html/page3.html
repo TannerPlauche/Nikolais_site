@@ -1,0 +1,50 @@
+<!DOCKTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page3 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+    <script src="../js/main.js"></script>
+
+
+</head>
+
+<body id="body">
+    <button><a href="../index.html">home</a></button>
+    <form>
+        <p>please select your favorite resturant (you can select multiple by holding down command on a mac or holding down control on a pc while selecting multiple options)
+        </p>
+        <select name="rest" id="resturant" size="5" multiple="multiple">
+            <option value="red lobster">red lobster</option>
+            <option value="T.J friday's">T.J friday's</option>
+            <option value="mc donalds">MC donalds</option>
+            <option value="popeyes">popeyes</option>
+            <option value="church's chicken">church's chicken</option>
+
+        </select>
+        <button type="submit" required="required" onclick="submitFunc(event)">submit</button>
+
+
+    </form>
+    <br>
+
+
+
+
+    <p id="myp">Click the button to change the color of this text</p>
+
+    <button onclick="myFunction()">change the color</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myp").style.color = "red";
+        }
+    </script>
+    <!-- <script src="main.js"></script> -->
+
+</body>
+
+</html>
